@@ -1,0 +1,58 @@
+@media (max-width: 800px) {
+  .wraper {
+    max-width: 800px;
+    height: 1000px;
+
+    grid-template: 
+    "h1-wraper h1-wraper h1-wraper"
+    "imedi rustavi-2 tv-pirveli" 
+    "pirveli-arxi mtavari-arxi komedi" 
+    "gds adjara ."
+    "social social social";
+  }
+
+  .gds {
+    width: 200px;
+    margin-left: calc(50% + 10px);
+  }
+  .adjara {
+    width: 200px;
+    margin-left: calc(50% + 20px);
+  }
+}
+
+@media (max-width: 640px) {
+  .wraper {
+  
+    justify-content: center;
+    
+    & > :not(:first-child):not(:last-child) {
+      margin-left: 10px;
+    }
+    .gds {
+      margin-left: 0;
+    }
+    .adjara {
+      margin-left: 0;
+    }
+
+    grid-template: 
+    "h1-wraper h1-wraper"
+    "imedi rustavi-2" 
+    "tv-pirveli pirveli-arxi"
+    "mtavari-arxi komedi" 
+    "gds adjara "
+    "social social";
+
+    .h1-wraper {
+      h1 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .imedi, .rustavi-2, .tv-pirveli, .pirveli-arxi, .mtavari-arxi, .komedi, .gds, .adjara {
+    max-width: 140px !important;
+    height: 140px !important;
+  }
+}

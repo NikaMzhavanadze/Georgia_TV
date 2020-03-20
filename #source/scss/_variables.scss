@@ -1,0 +1,51 @@
+/* #region - VARIABLES */
+
+$body-color: #E3E7E9;
+$head-color: #00138B;
+$img-center: no-repeat center center/cover;
+
+/* #endregion - VARIABLES */
+
+/* #region - GRID AREA */
+
+.imedi {
+  grid-area: imedi;
+}
+
+.rustavi-2 {
+  grid-area: rustavi-2;
+}
+
+.tv-pirveli {
+  grid-area: tv-pirveli;
+}
+
+.pirveli-arxi {
+  grid-area: pirveli-arxi;
+}
+
+.mtavari-arxi {
+  grid-area: mtavari-arxi;
+}
+
+.komedi {
+  grid-area: komedi;
+}
+
+.gds {
+  grid-area: gds;
+}
+
+.adjara {
+  grid-area: adjara;
+}
+
+.h1-wraper {
+  grid-area: h1-wraper;
+}
+
+.social {
+  grid-area: social;
+}
+
+/* #endregion - GRID AREA */
